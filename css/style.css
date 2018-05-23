@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-color: #ffcc66;
+}
+
+/* Life counter. */
+
+#lives img {
+ 	width: 50px;
+}
+
+.containerForLives {
+	margin-bottom: -40px;
+	height: 100px;
+}
+
+/* Congratulations Modal */
+
+.modal {
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #000;
+    text-align: center;
+}
+
+.modalBox {
+	width: 60%;
+    height: 400px;
+    font-size: 2em;
+    background-color: #ecb3ff;
+    margin: 8% auto;
+    padding: 30px 30px 50px;
+    border-radius: 60px;
+    border: 1px solid #000;
+    box-shadow: 7px 7px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+button {
+    width: 300px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: #d24dff;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Game Over Modal */
+
+.gameOverModalBox {
+    margin: 8% auto;
+    padding: 30px 30px 50px;
+    width: 60%;
+    height: 400px;
+    font-size: 2em;
+    background-color: #ff8080;
+    border-radius: 60px;
+    border: 1px solid #000;
+    box-shadow: 7px 7px 15px 0 rgba(0, 0, 0, 0.4);
+}
+
+#tryAgain {
+	background-color: #ff1a1a;
+}
